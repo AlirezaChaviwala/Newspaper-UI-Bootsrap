@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rising Sun</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        .body-font {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+        }
+        
+        .bold-font {
+            font-weight: 900;
+        }
+        
+        .sub-header {
+            margin-top: 10px;
+            padding: 5px 0 5px;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            text-align: left;
+        }
+        
+        h1 {
+            font-size: 70px;
+        }
+        
+        h2 {
+            font-size: 45px;
+        }
+        
+        h6 {
+            font-size: 22px;
+        }
+        
+        .img-div {
+            background-color: grey;
+        }
+        
+        .container-padding {
+            padding: 22px;
+            line-height: normal;
+            box-sizing: border-box;
+        }
+        
+        .tabs {
+            background-color: #D7D7D7;
+        }
+        
+        @media screen and (min-width: 576px) {
+            h2#title {
+                font-size: 2.5rem;
+            }
+        }
+        
+        @media screen and (max-width: 576px) {
+            h2#title {
+                font-size: 2rem;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            h1#headline {
+                font-size: 4rem;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            h2#title {
+                font-size: 3.8rem;
+            }
+        }
+        
+        @media (min-width: 1200px) {
+            h1#headline {
+                font-size: 6.6rem;
+            }
+        }
+    </style>
+</head>
+
+<body class='bg-dark'>
+    <div class="container container-padding bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">The Rising Sun<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page2.html">News Daily Front</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="page3.html">News Daily Back</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br><br>
+
+        <div class='body-font'>
+            <div style="margin: inherit;margin-bottom: 5px;" class='row'>
+                <div class='col-lg-2 col-md-12 tabs'>
+                    <div class="container mt-2 p-0">
+                        <div class="row">
+                            <div class="col-lg-5 p-2">
+                                <div style="height: 60px;width: auto;" class="img-div"></div>
+                                <span>Page 2</span>
+                            </div>
+                            <div class="col-lg-7 p-2">
+                                <span style='font-size: 10px;'>Lorem Ipsum is simply dummy text</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: center;" class='col-lg-8'>
+                    <h1 class='bold-font'>The Rising Sun</h1>
+                    <p style="font-size: 12px;text-align: center;">The most awesomest newspaper in the world</p>
+                </div>
+
+                <div class='col-lg-2 col-md-12 tabs'>
+                    <div class="container mt-2 p-0">
+                        <div class="row">
+                            <div class="col-lg-5 p-2">
+                                <div style="height: 60px;width: auto;" class="img-div"></div>
+                                <span>Page 2</span>
+                            </div>
+                            <div class="col-lg-7 p-2">
+                                <span style='font-size: 10px;'>Lorem Ipsum is simply dummy text</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id='subheader' style='font-size: 15px; text-align: center;' class='row sub-header p-0 m-0'>
+                <div class='col-lg-3 col-md-12'>
+                    <span>Lorem ipsum dolor sit amet</span>
+                </div>
+                <div class='col-lg-2 offset-lg-2 col-md-12'>
+                    <strong><span style="text-decoration: underline;">www.therisingsun.org</span></strong>
+                </div>
+                <div class='col-lg-3 offset-lg-2 col-md-12'>
+                    <span>Volume #30/Pages 23/Copyright&#169;</span>
+                </div>
+            </div>
+
+            <div id='main-row' class='row'>
+                <div class='col-lg-8 col-md-12'>
+                    <h2 id='title' class="bold-font pt-3 pb-3">ELECTRIC CARS: THE FUTURE OF TRANSPORTATION</h2>
+                    <div style='width: auto;height: 200px;' class='img-div mb-3'></div>
+                    <span style="text-decoration: underline;">by <strong>Andre Pollerman</strong> and <strong>Coleen Bandge</strong></span>
+                    <div class='mt-3 mb-3'>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non eveniet aliquam rerum tempora quam voluptatem, commodi beatae ut ipsum, velit iusto temporibus reprehenderit nulla inventore voluptatum iure eaque possimus error.velit
+                            iusto temporibus reprehenderit nulla inventore voluptatum iure eaque possimus error.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus earum iure, esse cum saepe voluptatem eaque magnam reprehenderit, rerum, asperiores aspernatur optio veritatis quo. Eveniet nesciunt magni repellat perferendis voluptatibus.</p>
+                    </div>
+                    <div style='font-weight: 500;' class='d-flex justify-content-end'>
+                        <i><span>Continued on Page 15</span></i>
+                    </div>
+
+                    <div class='row mt-2 pb-4' style='border-top: 2px solid black;border-bottom: 2px solid black;'>
+                        <div class="col-lg-12">
+                            <div class="row p-2">
+                                <div class='pl-2'>
+                                    <strong><span style="text-decoration: underline;">NEWS CHANGING THE WORLD</span></strong>
+                                </div>
+                            </div>
+
+                            <div class='row'>
+                                <div class='col-lg-6 col-md-12'>
+                                    <h6 class="bold-font pb-2">WORLD'S FIRST UNDERWATER HOTEL VILLA</h6>
+                                    <div style='height: 150px;width: 150px;float: left;' class="img-div mr-3"></div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                    <i><span style='font-weight: 500;'>Continued on Page 7</span></i>
+                                    <br><br>
+                                    <h6 class="bold-font pb-2">ELECTRIC CARS: THE FUTURE OF TRANSPORTATION</h6>
+                                    <div style='height: 150px;width: 150px;float: left;' class="img-div mr-3"></div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                    <i><span style='font-weight: 500;'>Continued on Page 7</span></i>
+                                </div>
+
+                                <div class='col-lg-6 col-md-12'>
+                                    <h6 class="bold-font pb-2">THE TALLEST STATUE IN THE WORLD</h6>
+                                    <div style='height: 150px;width: 150px;float: left;' class="img-div mr-3"></div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                    <i><span style='font-weight: 500;'>Continued on Page 7</span></i>
+                                    <br><br>
+                                    <h6 class="bold-font pb-2">SUICIDE BOMB ATTACK AT TEAMS</h6>
+                                    <div style='height: 150px;width: 150px;float: left;' class="img-div mr-3"></div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                    <i><span style='font-weight: 500;'>Continued on Page 7</span></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class='row mt-2'>
+                        <div class='col-lg-12'>
+                            <h6 class="bold-font pb-3 pt-3">TEN BOOKS TO CHECK OUT THIS AUTUMN</h6>
+                            <div style='height: 150px;width: 150px;float: left;' class="img-div mr-3"></div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                                Lorem Ipsum passages
+                            </p>
+                            <i><span style='font-weight: 500;'>Continued on Page 7</span></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='col-lg-4 col-md-12 pt-5'>
+                    <span><strong>POLITICS</strong></span>
+                    <div style='width: auto;height: 200px;' class="img-div mt-3 mb-3"></div>
+                    <h3 class="bold-font">A CHINESE COMPANY TO BUILD A FAKE MOON TO REPLACE THE CITY</h3>
+                    <span style="text-decoration: underline;">by <strong>Andre Pollerman</strong> and <strong>Coleen Bandge</strong></span>
+                    <div class='mt-3 mb-3'>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College
+                            in Virginia
+                        </p>
+                        <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form.</p>
+                    </div>
+                    <i><span style='font-weight: 500;'>Continued on Page 14</span></i>
+                    <br><br>
+                    <div class='row'>
+                        <div class='col-lg-12'>
+                            <div class='p-4' style="border: 2px solid black;">
+                                <h6 class="bold-font">#METOO MOVEMENT IN INDIA GETS BOOM</h6>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                                <i><span style='font-weight: 500;'>Continued on Page 7</span></i><br>
+                                <h6 class="bold-font pt-3">PLANE CRASHES IN INDONESIA</h6>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                                <i><span style='font-weight: 500;'>Continued on Page 7</span></i><br>
+                                <h6 class="bold-font pt-3">CAN HUMANS SURVIVE IN MARS?</h6>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                                <i><span style='font-weight: 500;'>Continued on Page 7</span></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+
+</html>
